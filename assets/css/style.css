@@ -1,0 +1,82 @@
+/* Backgrounds */
+#infoSection,
+#resultSection {
+  background-image: linear-gradient(
+    to top,
+    #dad4ec 0%,
+    #dad4ec 1%,
+    #f3e7e9 100%
+  );
+}
+
+#entrySection {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+/* Avoid Navbar Cover Content */
+section {
+  padding-top: 60px;
+  color: whitesmoke;
+}
+
+#resultSection {
+  padding-top: 80px;
+}
+
+/* Info Section */
+#infoSection {
+  color: #212529;
+}
+
+.carouselLabel {
+  background-color: #212529;
+  color: whitesmoke;
+  margin: auto auto 1.5em;
+  border-radius: 8px;
+}
+
+#carouselInfo {
+  max-height: 70vh !important;
+}
+
+.instructionStep {
+  border-bottom: #212529 dotted 1px;
+  padding-bottom: 1px;
+}
+
+/* Entry Section */
+textarea {
+  resize: none;
+  height: 17.5em;
+  background-image: linear-gradient(
+    to top,
+    #dad4ec 0%,
+    #dad4ec 1%,
+    #f3e7e9 100%
+  );
+}
+
+#submitBtn,
+#deleteBtn,
+#toTopBtn {
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+/* Result Section */
+.resultTitle {
+  background-color: #212529;
+  border-radius: 6px;
+  text-align: center;
+}
+
+#results {
+  width: 100%;
+}
+
+#notFollowing,
+#notFollowers {
+  min-height: 80vh;
+  width: 35vw;
+  color: #212529;
+}
