@@ -1,2 +1,2 @@
 # instagram-followers
-Instagram Followers Analizer
+Instagram Followers Analyzer
